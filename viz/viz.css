@@ -1,0 +1,48 @@
+body {
+  margin:0;
+  font-family: futura;
+  font-size: 10px;
+}
+#track-pick-table>li{
+	display: block;
+	width: 100px;
+	height: 100px;
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+#track-pick-table{
+	width: 100%;
+	height: 150px;
+	overflow: scroll;
+}
+#track-pick-table>li>div{
+	width: 100px;
+	height: 100px;
+	background-color: #C2EEBC;
+}
+#audio-viz-canvas{
+	position: absolute;
+	z-index: 100;
+}
+nav>svg{
+	width: 20px;
+	height: 40px;
+	cursor: pointer;
+}
+#comment-box{
+font-size: 48px;
+text-shadow: 0 0 11px white;
+color: transparent;
+position: absolute;
+text-align: center;
+width: 100%;
+opacity: 0.6;
+top: 50%;
+-webkit-transform: translateY(-50%);
+}
+#comment-box-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
